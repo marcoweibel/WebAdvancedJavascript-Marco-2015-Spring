@@ -7,28 +7,49 @@ html, body {
 	height: 100%;
 	text-align: center;
 	background: URL("http://i.imgur.com/gT5cj.jpg");
-    background-size: cover;
-    background-position: center;
+    background-size:34% ;
+    background-repeat: repeat-x.
+}
+a {
+	color:white; 
 }
 
 .my-title {
 	padding-top:20px;
 	padding-bottom:20px;
 	text-align: center;
-	color:orange;
-	font-size: 2rem;
-	background:rgba(0, 0, 0, 0.8);
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color:yellow;
+	font-size: 3rem;
+	background:rgba(138,43,226, 0.8);
+	font-family: Century Gothic;
 }
 
 img {
-  margin:40px;
-  border:7px solid orange;
+  margin:20px;
+  border:7px solid purple;
   border-radius: 20px;
 }
 
 #section {
-    width:500px;
+	width:60%;
+    text-align: center;
     background:rgba(255,255,255,0.8);
-    font-family: Courier, Arial, sans-serif;
-    font-size:20px;
+    font-family: Century Gothic;
+    font-size:18px;
+    margin:0px auto;
+
+}
+
+#menu {
+	padding-top: 20px;
+	padding-bottom:20px;
+	font-family: Century Gothic;
+	font-size:18px;
+	color:white;
+}
+
+ul li{
+  display: inline;
+  background: rgba(0,0,0,0.6);
+  	padding:5px 50px 5px 50px;
+}
