@@ -33,7 +33,7 @@ body {
 	height: 100%;
 }
 
-.header__nav li {
+.header__nav a li {
 
 	width: 25%;
 	margin: 0 3.5%;
@@ -42,14 +42,12 @@ body {
 	font-size:20px;
 	display: inline-block;
 	list-style-type: none;
-}
-
-.header__nav a {
-	color: black;
+		color: black;
 	text-decoration: none;
 }
 
-.header__nav li p:hover {
+
+.header__nav a li p:hover {
 	color: red;
 	text-decoration: none;
 }
@@ -74,15 +72,14 @@ body {
 	padding:3px;
 }
 .slide_pic {
-	position:fixed;
+	position:absolute;
 		top: 110px;
-		margin:0 auto;
 		margin-left:465px;
 }
 
 .slide_textbox {
-	padding-top:450px;
-	position:fixed;
+	position:absolute;
+	top: 450px;
 
 }
 
@@ -99,8 +96,5 @@ body {
 }
 
 footer {
-	width: 100%;
-	padding: 30px;
 	background-color:white;
-	position: absolute;
 }
