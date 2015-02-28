@@ -33,16 +33,16 @@ body {
 	height: 100%;
 }
 
-.header__nav a li {
+.header__nav li {
 
-	width: 25%;
+	width: 40%;
 	margin: 0 3.5%;
-	text-align: left;
+	text-align: center;
 	padding-top: 25px;
 	font-size:20px;
 	display: inline-block;
 	list-style-type: none;
-		color: black;
+	color: black;
 	text-decoration: none;
 }
 
@@ -73,8 +73,8 @@ body {
 }
 .slide_pic {
 	position:absolute;
-		top: 110px;
-		margin-left:465px;
+	top: 110px;
+	margin-left:465px;
 }
 
 .slide_textbox {
@@ -86,7 +86,6 @@ body {
 .slide_textbox p {
 	text-align: center;
 	background-color:rgba(200,80,50,0.8);
-
 	margin-right:15%;
 	margin-left:15%;
 	color: white;
@@ -95,6 +94,26 @@ body {
 
 }
 
-footer {
-	background-color:white;
+.menu{
+	padding-top:100px;
 }
+
+.menu img {
+	padding:30px;
+}
+
+.menu h3 {
+	padding-left:30px;
+	color :white;
+	position:absolute;
+}
+
+.menu p {
+	color :white;
+	margin:0 auto;
+	padding-left:500px;
+	padding-top:150px;
+	display: block;
+	position:absolute;
+}
+
