@@ -28,6 +28,14 @@
 }
 .header__info a{
 	text-decoration: none;
+	color:black;
+	transition: color 0.2s;
+}
+
+.header__info a:hover{
+	text-decoration: underline;
+	color:white;
+	transition: color 0.2s;
 }
 .header__info img{
 	margin-top:5px;
@@ -62,7 +70,7 @@
 	display:inline;
 	list-style: none;
 	color:white;
-	margin-left:50px;
+	margin-left:75px;
 	transition: color 0.2s;
 }
 
@@ -169,6 +177,40 @@
 }
 
 .content__liveVisualRig p {
+	padding-left:350px;
+	padding-right:350px;
+	text-align: center;
+}
+
+.content__midiController img {
+	margin-top:180px;
+	margin-bottom:15px;
+}
+
+.content__midiController h2 {
+	padding-left:300px;
+	padding-right:300px;
+	text-align: center;
+}
+
+.content__midiController p {
+	padding-left:350px;
+	padding-right:350px;
+	text-align: center;
+}
+
+.content__teaserLyndoh img {
+	margin-top:180px;
+	margin-bottom:15px;
+}
+
+.content__teaserLyndoh h2 {
+	padding-left:300px;
+	padding-right:300px;
+	text-align: center;
+}
+
+.content__teaserLyndoh p {
 	padding-left:350px;
 	padding-right:350px;
 	text-align: center;
