@@ -12,21 +12,20 @@
 	z-index:15000;
 	background-color: rgba(0,150,0,0.7);
 }
+
 .header.small {
 	height: 100px;
 }
 
 .header__logo {
 	float:left;
-	padding-left:3.5%;
+	padding-left:5%;
 	padding-top:12px;
-
 }
 
 .header__logo img {
 	height: 120px; 
 	width: auto;
-
 }
 
 .header__logo img.small {
@@ -38,34 +37,22 @@
 	padding-left:1%;
 	padding-top:23px;
 	font-size:10pt;
-
 }
 
 .header__nav ul {
 	padding-top:65px;
-	width:35%;
-	float:right;
+	padding-left:35%;
 	text-decoration: none;
 }
-
-.header__nav ul ul {
-	position:fixed;
-	padding-top:0;
-	float:left;
-}
-.header__nav ul ul a {
-	display: block;
-	text-decoration: none;
-
-}
-
 
 .header__nav li {
 	color:white;
 	display: inline-block;
 	list-style-type: none;
-	margin-left:7%;
-	margin-right:7%;
+	margin-left:3%;
+	margin-right:3%;
+	float:right;
+	padding-right:5%;
 	transition: color 0.2s;
 	text-decoration: none;
 }
