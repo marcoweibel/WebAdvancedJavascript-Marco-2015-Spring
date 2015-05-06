@@ -19,58 +19,121 @@
 .header__logo {
 	float:left;
 	padding-left:3.5%;
-	padding-top:0.8%;
+	padding-top:12px;
 
 }
 
 .header__logo img {
-	height: 130px; 
+	height: 120px; 
 	width: auto;
 
 }
 
 .header__logo img.small {
-	height: 80px; 
+	height: 70px; 
 }
 
 .header__info {
 	float:left;
 	padding-left:1%;
-	padding-top:1.7%;
+	padding-top:23px;
 	font-size:10pt;
 
 }
 
 .header__nav ul {
-	padding-top:5%;
+	padding-top:65px;
+	width:35%;
 	float:right;
-	width:50%;
+	text-decoration: none;
 }
 
+.header__nav ul ul {
+	position:fixed;
+	padding-top:0;
+	float:left;
+}
+.header__nav ul ul a {
+	display: block;
+	text-decoration: none;
+
+}
+
+
 .header__nav li {
-	float:right;
 	color:white;
 	display: inline-block;
 	list-style-type: none;
-	margin-left:5%;
-	margin-right:5%;
+	margin-left:7%;
+	margin-right:7%;
+	transition: color 0.2s;
+	text-decoration: none;
+}
+
+.header__nav li:hover {
+	color:black;
+	transition: color 0.2s;
 }
 
 .header__nav ul.small {
-	padding-top:2.8%;
+	padding-top:40px;
 	}
 
-.content  {
-	position:absolute;
+.portfolioFilter {
 	padding-top:160px;
-	display:block;
+	text-align:center;
 }
 
-.content.small {
-	padding-top:105px;
+.portfolioFilter.small {
+	padding-top:120px;
 }
-
 
 .is-hidden {
 	display: none;
 }
+
+
+
+/*I got help from an Isotope tutorial for this code */
+
+			.portfolioFilter a { 
+				font-size: 12px;
+			    margin-right: 10px; 
+				color:rgb(0,0,0);
+			}
+
+			.portfolioFilter a.current { 
+				font-weight: bold;
+				color:rgb(0,150,0);
+			}
+
+
+			img {
+			    margin:5px;
+			}
+
+			.isotope-item {
+			    z-index: 2;
+			}
+			.isotope-hidden.isotope-item {
+			    pointer-events: none;
+			    z-index: 1;
+			}
+			.isotope,
+			.isotope .isotope-item {
+			  /* change duration value to whatever you like */
+
+			    -webkit-transition-duration: 0.8s;
+			    -moz-transition-duration: 0.8s;
+			    transition-duration: 0.8s;
+			}
+			.isotope {
+			    -webkit-transition-property: height, width;
+			    -moz-transition-property: height, width;
+			    transition-property: height, width;
+			}
+			.isotope .isotope-item {
+			    -webkit-transition-property: -webkit-transform, opacity;
+			    -moz-transition-property: -moz-transform, opacity;
+			    transition-property: transform, opacity;
+			}
