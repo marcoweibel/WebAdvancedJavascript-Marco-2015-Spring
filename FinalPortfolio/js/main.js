@@ -6,6 +6,7 @@ $(window).scroll(function(){
         $('.header__nav ul').addClass('small');
         $('.header__nav ul ul').addClass('small');
         $('.portfolioFilter').addClass('small');
+        $('.pageContent').addClass('small');
         $( ".header__info" ).addClass('is-hidden');
     } else {
         $('.header').removeClass('small');
@@ -13,6 +14,7 @@ $(window).scroll(function(){
         $('.header__nav ul').removeClass('small');
         $('.header__nav ul ul').removeClass('small');
         $('.portfolioFilter').removeClass('small');
+        $('.pageContent').removeClass('small');
         $( ".header__info" ).removeClass('is-hidden');
     }
 });
@@ -45,3 +47,6 @@ $(window).scroll(function(){
                      return false;
                 }); 
             });
+
+
+//mouse over in javascript
