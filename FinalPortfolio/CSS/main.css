@@ -84,17 +84,22 @@
 	padding-top:120px;
 }
 
-.pageContent img {
+/*.pageContent img {
 	display:inline-block;
 	width:30%;
 	padding-left:5%;
 	padding-right:5%;
-}
+}*/
 
 .is-hidden {
 	display: none;
 }
 
+.portfolioContainer {
+	width:100%;
+	padding-left:5%;
+	padding-right:5%;
+}
 .portfolioContainer img {
 	opacity: 1.0;
 	transition: opacity 0.2s;
@@ -107,7 +112,7 @@
 
 
 
-/*I got help from an Isotope tutorial for this code */
+			/*I got help from an Isotope tutorial for this code */
 
 			.portfolioFilter a { 
 				font-size: 12px;
@@ -153,11 +158,11 @@
 
 
 
-/* new masonry stuff*/
+/* masonry code*/
 #content {
-	/*width: 980px;*/
-	/*width: 95%;*/
-	width: 100%;
+	width: 980px;
+	width: 95%;
+
 }
 
 .item {
@@ -166,7 +171,7 @@
 }
 
 .featured {
-	width: 430px;
+	width: 425px;
 /*	margin: 0 10px 10px 0;*/
 }
 
@@ -178,113 +183,168 @@
   width: 97%;
 }
 
-/*display text*/
-.wrapper {
-    position: relative;
-    display:block;
-}
-.text {
-    position: absolute;
-    color:rgb(0,0,0);
-    background-color:rgba(255,255,255,0.8);
-    width: 430px;
-    height: 266px;
-    line-height:270px;
-    text-align: center;
-    font-size:16px;
-    z-index: 10;
-    opacity: 0;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}
-.text:hover {
-    opacity:1;
-}
-.text2 {
-    position: absolute;
-    color:rgb(0,0,0);
-    background-color:rgba(255,255,255,0.8);
-    width: 430px;
-    height: 350px;
-    line-height:350px;
-    text-align: center;
-    font-size:16px;
-    z-index: 10;
-    opacity: 0;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}
-.text2:hover {
-    opacity:1;
+				/*display text over hover code*/
+				.wrapper {
+				    position: relative;
+				    display:block;
+				}
+				.text {
+				    position: absolute;
+				    color:rgb(0,0,0);
+				    background-color:rgba(255,255,255,0.8);
+				    width: 425px;
+				    height: 266px;
+				    line-height:270px;
+				    text-align: center;
+				    font-size:16px;
+				    z-index: 10;
+				    opacity: 0;
+				    -webkit-transition: all 0.5s ease;
+				    -moz-transition: all 0.5s ease;
+				    -o-transition: all 0.5s ease;
+				    transition: all 0.5s ease;
+				}
+				.text:hover {
+				    opacity:1;
+				}
+				.text2 {
+				    position: absolute;
+				    color:rgb(0,0,0);
+				    background-color:rgba(255,255,255,0.8);
+				    width: 425px;
+				    height: 350px;
+				    line-height:350px;
+				    text-align: center;
+				    font-size:16px;
+				    z-index: 10;
+				    opacity: 0;
+				    -webkit-transition: all 0.5s ease;
+				    -moz-transition: all 0.5s ease;
+				    -o-transition: all 0.5s ease;
+				    transition: all 0.5s ease;
+				}
+				.text2:hover {
+				    opacity:1;
+				}
+
+				.text3 {
+				    position: absolute;
+				    color:rgb(0,0,0);
+				    background-color:rgba(255,255,255,0.8);
+				    width: 425px;
+				    height: 266px;
+				    line-height:240px;
+				    text-align: center;
+				    font-size:16px;
+				    z-index: 10;
+				    opacity: 0;
+				    -webkit-transition: all 0.5s ease;
+				    -moz-transition: all 0.5s ease;
+				    -o-transition: all 0.5s ease;
+				    transition: all 0.5s ease;
+				}
+
+				.text3:hover {
+				    opacity:1;
+				}
+
+				.text4 {
+				    position: absolute;
+				    color:rgb(0,0,0);
+				    background-color:rgba(255,255,255,0.8);
+				    width: 425px;
+				    height: 425px;
+				    line-height:420px;
+				    text-align: center;
+				    font-size:16px;
+				    z-index: 10;
+				    opacity: 0;
+				    -webkit-transition: all 0.5s ease;
+				    -moz-transition: all 0.5s ease;
+				    -o-transition: all 0.5s ease;
+				    transition: all 0.5s ease;
+				}
+
+				.text4:hover {
+				    opacity:1;
+				}
+
+				.text5 {
+				    position: absolute;
+				    color:rgb(0,0,0);
+				    background-color:rgba(255,255,255,0.8);
+				    width: 425px;
+				    height: 600px;
+				    line-height:600px;
+				    text-align: center;
+				    font-size:16px;
+				    z-index: 10;
+				    opacity: 0;
+				    -webkit-transition: all 0.5s ease;
+				    -moz-transition: all 0.5s ease;
+				    -o-transition: all 0.5s ease;
+				    transition: all 0.5s ease;
+				}
+
+				.text5:hover {
+				    opacity:1;
+				}
+
+				.text6 {
+				    position: absolute;
+				    color:rgb(0,0,0);
+				    background-color:rgba(255,255,255,0.8);
+				    width: 425px;
+				    height: 600px;
+				    line-height:500px;
+				    text-align: center;
+				    font-size:16px;
+				    z-index: 10;
+				    opacity: 0;
+				    -webkit-transition: all 0.5s ease;
+				    -moz-transition: all 0.5s ease;
+				    -o-transition: all 0.5s ease;
+				    transition: all 0.5s ease;
+				}
+
+				.text6:hover {
+				    opacity:1;
+				}
+
+.pageContent {
+	text-align: center;
+	width: 100%;
+	background: #fff;
+
 }
 
-.text3 {
-    position: absolute;
-    color:rgb(0,0,0);
-    background-color:rgba(255,255,255,0.8);
-    width: 430px;
-    height: 266px;
-    line-height:240px;
-    text-align: center;
-    font-size:16px;
-    z-index: 10;
-    opacity: 0;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+.pageContent p {
+	padding-left:25%;
+	padding-right:25%;
 }
 
-.text3:hover {
-    opacity:1;
+.pageContent img {
 }
 
-.text4 {
-    position: absolute;
-    color:rgb(0,0,0);
-    background-color:rgba(255,255,255,0.8);
-    width: 430px;
-    height: 430px;
-    line-height:420px;
-    text-align: center;
-    font-size:16px;
-    z-index: 10;
-    opacity: 0;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+.aboutMe {
+	font-size:12px;
+	padding-bottom:20px;
 }
 
-.text4:hover {
-    opacity:1;
+.aboutMe a {
+	text-decoration: none;
+	color:rgb(0,150,0);
+	transition: opacity 0.2s;
 }
 
-.text5 {
-    position: absolute;
-    color:rgb(0,0,0);
-    background-color:rgba(255,255,255,0.8);
-    width: 430px;
-    height: 700px;
-    line-height:500px;
-    text-align: center;
-    font-size:16px;
-    z-index: 10;
-    opacity: 0;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+.aboutMe a:hover{
+	opacity:0.4;
+	transition: opacity 0.2s;
 }
 
-.text5:hover {
-    opacity:1;
+footer {
+	padding-top:5px;
+	padding-bottom: 5px;
+	text-align: center;
+	font-size: 12px
 }
-
-
-
-
