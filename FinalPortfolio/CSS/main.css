@@ -395,6 +395,9 @@
 		    height: 70%;
 		}
 
+.video-container img {
+	width:30%;
+}
 footer{
    position:inline;
    padding-top:40px;
